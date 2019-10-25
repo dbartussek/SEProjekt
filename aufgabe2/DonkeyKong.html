@@ -1,0 +1,184 @@
+<html>
+<head>
+    <style>
+        .nomen {
+            color: red;
+        }
+
+        .verb {
+            color: green;
+        }
+
+        .adjektiv {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+<ul>
+    <li>Plattformen</li>
+
+    <li>Leitern (heil/kaputt)</li>
+
+    <li>Aufzüge</li>
+
+    <li>Fässer</li>
+
+    <li>Feuer</li>
+
+    <li>Hämmer</li>
+
+    <li>Score items</li>
+
+    <li>
+
+        Der
+        <b class="nomen">Spieler</b>
+        <b class="verb">startet</b>
+        <b class="adjektiv"> unten links</b>.
+        <b class="nomen">Ziel</b> ist es, die <b class="adjektiv">oberste</b> <b class="nomen">Plattform</b> zu <b
+            class="verb">erreichen</b>.
+    </li>
+
+    <li>Es gibt 4 unterschiedliche <b class="nomen">Level</b>, die ein je festes <b class="nomen">Layout</b> haben
+
+        <ul>
+            <li>6 <b class="adjektiv"> horizontale</b> <b class="nomen"> Plattformen</b>
+
+                <ul>
+                    <li>Der <b class="adjektiv"> unterste</b> spannt den <b class="adjektiv"> ganzen</b> <b
+                            class="nomen">Bildschirm</b></li>
+
+                    <li>Die anderen haben je eine <b class="nomen"> Lücke</b> an abwechselnden Seiten, beginnend mit <b
+                            class="adjektiv"> rechts</b></li>
+
+                    <li><b class="nomen">Plattformen</b> sind zur <b class="nomen">Lücke</b> <b
+                            class="adjektiv">geneigt</b></li>
+
+                    <li>Zwischen den <b class="nomen">Plattformen</b> sind <b class="nomen">Leitern</b>, die <b
+                            class="adjektiv">heil</b> oder <b class="adjektiv">kaputt</b> sein können
+
+                        <ul>
+                            <li>TODO details</li>
+                        </ul>
+
+                    </li>
+                </ul>
+            </li>
+
+            <li><b class="nomen">Donkey Kong</b> ist <b class="adjektiv">oben links</b> und <b class="verb">wirft</b> <b
+                    class="nomen">Fässer</b>
+
+                <ul>
+                    <li><b class="nomen">Fässer</b> <b class="verb">können rollen oder fallen</b></li>
+
+                    <li><b class="adjektiv">Rollende</b> <b class="nomen">Fässer</b>:
+
+                        <ul>
+                            <li><b class="nomen">Fässer</b> <b class="verb">rollen</b> der <b class="nomen">Neigung</b>
+                                der <b class="nomen">Plattform</b> nach
+                            </li>
+
+                            <li>Bei jeder <b class="nomen">Leiter</b> <b class="verb">kann</b> ein <b
+                                    class="nomen">Fass</b> diese <b class="verb">herunter fallen</b></li>
+
+                            <li>
+                                Wenn das <b class="nomen">Ende</b> der <b class="nomen">Plattform</b> <b class="verb">erreicht
+                                wird</b>,
+                                <b class="verb">fällt</b> das <b class="nomen">Fass</b> auf die <b class="adjektiv">nachste</b>
+                                <b class="nomen">Plattform</b></li>
+                        </ul>
+                    </li>
+
+                    <li><b class="adjektiv">Fallende</b> <b class="nomen">Fässer</b>:
+
+                        <ul>
+                            <li>Können <b class="adjektiv">gerade</b> oder im Zickzack <b class="verb">fallen</b></li>
+                        </ul>
+                    </li>
+
+                    <li>Am <b class="nomen">Ende</b> der <b class="adjektiv">untersten</b> <b
+                            class="nomen">Plattform</b> <b class="verb">stößt</b> das <b class="nomen">Fass</b> gegen
+                        ein <b class="adjektiv">brennendes</b> <b class="nomen">Ölfass</b>
+                        und <b class="verb">kann</b> ein <b class="nomen">Feuer</b> <b class="verb">spawnen</b>
+                    </li>
+                </ul>
+            </li>
+
+            <li><b class="nomen">Feuer</b>:
+
+                <ul>
+                    <li><b class="verb">Bewegen</b> sich zufällig nach links und rechts</li>
+
+                    <li><b class="verb">Können</b> an <b class="nomen">Leitern</b> nach oben und unten bewegen
+
+                        <ul>
+                            <li>Auch an <b class="adjektiv">kaputten</b></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+            <li>Es gibt 2 <b class="nomen">Hämmer</b>
+
+                <ul>
+                    <li>Links auf der 3. <b class="nomen">Plattform</b></li>
+
+                    <li>Links auf der 5. <b class="nomen">Plattform</b></li>
+
+                    <li>Wenn ein <b class="nomen">Hammer</b> <b class="verb">angesprungen wird</b>, <b class="verb">wechselt</b>
+                        <b class="nomen">Jumpman</b> in den <b class="nomen">Hammer-Modus</b></li>
+
+                    <li><b class="nomen">Hammer-Modus</b>:
+
+                        <ul>
+                            <li><b class="nomen">Fässer</b>, die der <b class="nomen">Hammer</b> <b
+                                    class="verb">berührt</b> <b class="verb">werden zerstört</b> und <b
+                                    class="adjektiv">500</b> <b class="nomen">Pkunke</b> <b class="verb">erhalten</b>
+                            </li>
+
+                            <li><b class="nomen">Feuer</b>, die der <b class="nomen">Hammer</b> berührt <b class="verb">werden
+                                zerstört</b> und <b class="adjektiv">800</b> <b class="nomen">Pkunke</b> <b
+                                    class="verb">erhalten</b>
+                            </li>
+
+                            <li>Hält <b class="adjektiv">10</b> <b class="nomen">Sekunden</b></li>
+
+                            <li>Bei einem <b class="nomen">Treffer</b> <b class="verb">pausiert</b> das <b
+                                    class="nomen">Spiel</b> <b class="adjektiv">1</b> <b class="nomen">Sekunde</b></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+	<li>
+		Jumpman Bewegung
+		<ul>
+			<li>
+				Auf Plattformen: Links und rechts
+			</li>
+			<li>
+				Kann springen, um über Fässer oder Feuer zu kommen
+			</li>
+			<li>
+				Kann an heilen Leitern hoch und runter klettern
+			</li>
+		</ul>
+	</li>
+</ul>
+
+<br>
+<ul>
+	<li>
+		Nomen: Klassen
+	</li>
+	<li>
+		Verben: Methoden
+	</li>
+	<li>
+		Adjektive: Properties
+	</li>
+</ul>
+</body>
+</html>
